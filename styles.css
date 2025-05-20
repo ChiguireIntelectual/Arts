@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+/* Sección bienvenida */
+.welcome {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.welcome h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.welcome p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Sección info */
+.info {
+  background-color: #eee;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e05500;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+}
